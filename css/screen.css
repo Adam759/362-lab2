@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
-
 body {
   background-color: #060909;
   text-align: center;
@@ -7,7 +6,6 @@ body {
   color: #ECECEC;
   font-family: "Cabin";
 }
-
 .main_container {
   margin: 0 auto;
   width: 75%;
@@ -16,22 +14,18 @@ body {
   padding: 2% 0 2% 0;
   background-color: #192020;
 }
-
 h1 {
   font-size: 90%;
   margin: 2vh 0 4vh 0;
 }
-
 label {
   margin-right: 1vw;
   font-size: 50%;
 }
-
 .entry_container {
   text-align: right;
   margin-right: 18%;
 }
-
 .entry {
   margin-top: 2vh;
   width: 35vw;
@@ -42,7 +36,6 @@ label {
   border: 0px;
   font-size: 60%;
 }
-
 .sub_button {
   margin-top: 5vh;
   height: 7vh;
@@ -51,11 +44,9 @@ label {
   color: #ECECEC;
   border: 0px;
 }
-
 .sub_button:hover {
   background-color: #1F2424;
 }
-
 /*Desktop Upscaling*/
 @media only screen and (min-width: 768px) {
   .main_container {
