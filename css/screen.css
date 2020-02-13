@@ -10,40 +10,43 @@ body {
 
 .main_container {
   margin: 0 auto;
-  width: 35%;
-  margin-top: 10%;
+  width: 75%;
+  height: 85%;
+  margin-top: 20%;
   padding: 2% 0 2% 0;
   background-color: #192020;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 110%;
   margin: 2vh 0 4vh 0;
 }
 
 label {
   margin-right: 1vw;
+  font-size: 50%;
 }
 
 .entry_container {
   text-align: right;
-  margin-right: 15%;
+  margin-right: 18%;
 }
 
 .entry {
   margin-top: 2vh;
-  width: 21vw;
+  width: 35vw;
   height: 5vh;
   text-align: left;
   background-color: #0D1010;
   color: #ECECEC;
   border: 0px;
+  font-size: 60%;
 }
 
 .sub_button {
-  margin-top: 6vh;
+  margin-top: 5vh;
   height: 7vh;
-  width: 15vw;
+  width: 30vw;
   background-color: #0D1010;
   color: #ECECEC;
   border: 0px;
@@ -51,4 +54,33 @@ label {
 
 .sub_button:hover {
   background-color: #1F2424;
+}
+
+/*Desktop Upscaling*/
+@media only screen and (min-width: 768px) {
+  .main_container {
+    margin: 0 auto;
+    width: 35%;
+    margin-top: 10%;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  label {
+    font-size: 100%;
+  }
+  .entry_container {
+    margin-right: 15%;
+  }
+  .entry {
+    margin-top: 2vh;
+    width: 21vw;
+    height: 5vh;
+    font-size: 100%;
+  }
+  .sub_button {
+    margin-top: 6vh;
+    height: 7vh;
+    width: 15vw;
+  }
 }
